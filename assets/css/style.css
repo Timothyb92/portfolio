@@ -1,3 +1,10 @@
+/* 
+COLORS
+
+Light green: #7aa329
+
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +16,8 @@ html {
 }
 
 body {
-
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
 }
 
 .header {
@@ -17,9 +25,47 @@ body {
   background-image:
   linear-gradient(
     to right bottom,
-    rgba(0, 0, 0, 0.6),
-     rgba(0, 0, 0, 0.6)),
+    rgba(0, 0, 0, 0.75),
+     rgba(0, 0, 0, 0.75)),
       url('../images/unsplash-hero.jpg');
   background-size: cover;
   background-position: top;
+  position: relative;
+}
+
+.text-box {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 1.7;
+}
+
+.heading-primary {
+  color: #fff;
+}
+
+.heading-primary-span {
+  display: block;
+  font-size: 5rem;
+}
+
+.light-green-span {
+  color: #7aa329;
+}
+
+.about-section {
+  position: relative;
+  margin: 3rem 0;
+}
+
+.about-header {
+  font-size: 4rem;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-bottom: #000 solid;
+  margin: 0.8rem 0;
 }
