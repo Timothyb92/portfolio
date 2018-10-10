@@ -20,6 +20,11 @@ body {
   font-weight: 400;
 }
 
+.container-fluid, .row, .row > div {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   height: 100vh;
   background-image:
@@ -60,12 +65,28 @@ body {
   margin: 3rem 0;
 }
 
+.about-text-box {
+  text-align: center;
+}
+
 .about-header {
   font-size: 4rem;
-  position: absolute;
-  top: 10%;
+  /* position: absolute; */
+  /* top: 10%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  border-bottom: #000 solid;
+  transform: translate(-50%, -50%); */
   margin: 0.8rem 0;
+}
+
+.bottom-border-span {
+  border-bottom: #000 solid;
+}
+
+.headshot {
+  border-radius: 100%;
+}
+
+.about-paragraph {
+  font-size: 1.8rem;
+  padding-top: 6rem;
 }
