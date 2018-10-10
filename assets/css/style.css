@@ -90,3 +90,17 @@ body {
   font-size: 1.8rem;
   padding-top: 6rem;
 }
+
+.projects {
+  background-color: #b1b1b1;
+  text-align: center;
+  width: 100%;
+}
+
+.projects-header {
+  font-size: 4rem;
+}
+
+.projects-paragraph {
+  font-size: 1.8rem;
+}
