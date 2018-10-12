@@ -101,6 +101,7 @@ body {
 
 .projects-header {
   font-size: 4rem;
+  margin-bottom: 1.5rem;
 }
 
 .projects-paragraph, .contact-paragraph {
@@ -121,8 +122,21 @@ body {
 
 .contact-header {
   font-size: 4rem;
+  margin-bottom: 1.5rem;
 }
 
 .contact-item {
   font-size: 1.8rem;
+}
+
+.footer {
+  text-align: center;
+  background-color: #b1b1b1;
+  margin-top: 2rem;
+}
+
+.footer-paragraph {
+  margin-bottom: 0;
+  font-size: 1.4rem;
+  padding: 2rem 0;
 }
