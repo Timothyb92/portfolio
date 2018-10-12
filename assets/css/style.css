@@ -40,8 +40,9 @@ a:hover, a:visited, a:link, a:active
      rgba(0, 0, 0, 0.75)),
       url('../images/unsplash-hero.jpg');
   background-size: cover;
-  background-position: top;
+  background-position: center;
   position: relative;
+  background-attachment: fixed;
 }
 
 .text-box {
@@ -62,6 +63,14 @@ a:hover, a:visited, a:link, a:active
   font-size: 5rem;
 }
 
+.heading-name {
+  animation: moveInLeft 1s ease-out;
+}
+
+.heading-greeting {
+  animation: moveInRight 1s ease-out;
+}
+
 .light-green-span {
   color: #7aa329;
 }
@@ -77,15 +86,12 @@ a:hover, a:visited, a:link, a:active
 
 .about-header {
   font-size: 4rem;
-  /* position: absolute; */
-  /* top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   margin: 0.8rem 0;
 }
 
 .bottom-border-span {
-  border-bottom: #000 solid;
+  border-bottom: #7aa329 solid;
+  padding-bottom: 1rem;
 }
 
 .headshot {
@@ -98,7 +104,7 @@ a:hover, a:visited, a:link, a:active
 }
 
 .projects {
-  background-color: #b1b1b1;
+  background-color: #efefef;
   text-align: center;
   width: 100%;
   padding-top: 2rem;
@@ -107,7 +113,7 @@ a:hover, a:visited, a:link, a:active
 
 .projects-header {
   font-size: 4rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .projects-paragraph, .contact-paragraph {
@@ -128,7 +134,7 @@ a:hover, a:visited, a:link, a:active
 
 .contact-header {
   font-size: 4rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .contact-item {
@@ -137,7 +143,7 @@ a:hover, a:visited, a:link, a:active
 
 .footer {
   text-align: center;
-  background-color: #b1b1b1;
+  background-color: #333;
   margin-top: 2rem;
 }
 
@@ -145,4 +151,38 @@ a:hover, a:visited, a:link, a:active
   margin-bottom: 0;
   font-size: 1.4rem;
   padding: 2rem 0;
+  color: #ddd;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+
 }
