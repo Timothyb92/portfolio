@@ -103,8 +103,13 @@ body {
   font-size: 4rem;
 }
 
-.projects-paragraph {
+.projects-paragraph, .contact-paragraph {
   font-size: 1.8rem;
+  margin-bottom: 2em;
+}
+
+.projects-list {
+  margin-bottom: 1rem;
 }
 
 .contact-me {
@@ -116,4 +121,8 @@ body {
 
 .contact-header {
   font-size: 4rem;
+}
+
+.contact-item {
+  font-size: 1.8rem;
 }
