@@ -52,7 +52,7 @@ a:hover, a:visited, a:link, a:active
 
 .logo-white, .logo-black {
   height: 10rem;
-  float: left;
+  /* float: left; */
   padding: 1.6rem;
 }
 
@@ -62,12 +62,11 @@ a:hover, a:visited, a:link, a:active
 
 .nav-list {
   list-style: none;
-  display: block;
-  float: right;
+  /* display: block; */
 }
 
+
 .nav-item {
-  float: left;
   color: #fff;
   font-size: 3rem;
 }
@@ -76,7 +75,7 @@ a:hover, a:visited, a:link, a:active
   display: block;
   text-align: center;
   padding: 1.6rem;
-}
+} 
 
 .text-box {
   position: absolute;
@@ -109,8 +108,7 @@ a:hover, a:visited, a:link, a:active
 }
 
 .about-section {
-  position: relative;
-  margin: 3rem 0;
+  padding: 2rem 0;
 }
 
 .about-text-box {
@@ -119,7 +117,7 @@ a:hover, a:visited, a:link, a:active
 
 .about-header {
   font-size: 4rem;
-  margin: 0.8rem 0;
+  margin-bottom: 3.5rem;
 }
 
 .bottom-border-span {

@@ -14,16 +14,16 @@
 <body>
   <div class="container-fluid">
     <header class="header">
-      <nav>
-        <div class="nav-container">
+      <nav class="navbar">
+        <div class="container">
           <div class="logo-container">
             <img src="./assets/images/whiteVer.png" alt="White logo" class="logo-white">
             <img src="./assets/images/blackVer.png" alt="White logo" class="logo-black">
           </div>
           <ul class="nav-list">
-            <li class="nav-item"><a href="#">About</a></li>
-            <li class="nav-item"><a href="#">Portfolio</a></li>
-            <li class="nav-item"><a href="#">Contact</a></li>
+            <li class="nav-item float-left"><a href="#">About</a></li>
+            <li class="nav-item float-left"><a href="#">Portfolio</a></li>
+            <li class="nav-item float-left"><a href="#">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -36,12 +36,10 @@
     </header>
     <div class="row">
       <section class="about-section">
+        <h2 class="about-header text-center">
+          <span class="bottom-border-span">About Me</span>
+        </h2>
         <div class="about-text-box">
-          <h2 class="about-header">
-            <span class="bottom-border-span">
-              About Me
-            </span>
-          </h2>
           <div class="row justify-content-md-center">
             <div class="col-xl-3 col-sm-12">
               <img src="assets/images/malaysia.jpg" alt="Image of Tim" class="headshot">
@@ -60,7 +58,7 @@
         </div>
       </section>
     </div>
-    <section class="projects">
+    <!-- <section class="projects">
         <h2 class="projects-header"><span class="bottom-border-span">Projects</span></h2>
         <p class="projects-paragraph">I take pride on all of my work. Click a project to learn more about it.</p>
         <div class="project-list">
@@ -68,15 +66,15 @@
               <img src="./assets/images/sfHangmanScreenShot.png" alt="Street Fighter Hangman">
           </div>
         </div>
-    </section>
-    <!-- <div class="row">
+    </section> -->
+    <div class="row">
       <section class="projects">
         <h2 class="projects-header"><span class="bottom-border-span">Projects</span></h2>
         <p class="projects-paragraph">I take pride on all of my work. Click a project to learn more about it.</p>
         <div class="container">
           <div class="row projects-list">
-            <div class="col-md-12">
-              <div class="row grid-space-20">
+            <!-- <div class="col-md-12"> -->
+              <!-- <div class="row grid-space-20"> -->
                 <div class="col-xl-3 col-sm-6">
                     <a href="#">
                       <img src="./assets/images/sfHangmanScreenShot.png" alt="Street Fighter Hangman" height="170px" width="250px">
@@ -101,12 +99,12 @@
                     <p class="project-title">Go Bunco</p>
                   </a>
                 </div>
-              </div>
-            </div>
+              <!-- </div> -->
+            <!-- </div> -->
           </div>
         </div>
       </section>
-    </div> -->
+    </div>
       <section class="contact-me">
         <h2 class="contact-header"><span class="bottom-border-span">Contact Me</span></h2>
         <div class="contact-text-box">
@@ -133,7 +131,7 @@
         </div>
       </section>
       <footer class="footer">
-        <p class="footer-paragraph">Copyright &copy;2018 Timothy Bedsole</p>
+        <p class="footer-paragraph">Timothy Bedsole &copy;2018</p>
       </footer>
   </div>
 </body>
