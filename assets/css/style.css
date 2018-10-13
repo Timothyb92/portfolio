@@ -116,7 +116,7 @@ a:hover, a:visited, a:link, a:active
   margin-bottom: 3.5rem;
 }
 
-.projects-paragraph, .contact-paragraph {
+.projects-paragraph {
   font-size: 1.8rem;
   margin-bottom: 2em;
 }
@@ -135,6 +135,14 @@ a:hover, a:visited, a:link, a:active
 .contact-header {
   font-size: 4rem;
   margin-bottom: 3.5rem;
+}
+
+.contact-text-box {
+  margin-bottom: 6rem;
+}
+
+.contact-paragraph {
+  font-size: 1.8rem;
 }
 
 .contact-item {
