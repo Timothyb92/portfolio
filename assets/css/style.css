@@ -45,6 +45,39 @@ a:hover, a:visited, a:link, a:active
   background-attachment: fixed;
 }
 
+.nav-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logo-white, .logo-black {
+  height: 10rem;
+  float: left;
+  padding: 1.6rem;
+}
+
+.logo-black {
+  display: none;
+}
+
+.nav-list {
+  list-style: none;
+  display: block;
+  float: right;
+}
+
+.nav-item {
+  float: left;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.nav-item a {
+  display: block;
+  text-align: center;
+  padding: 1.6rem;
+}
+
 .text-box {
   position: absolute;
   top: 45%;
