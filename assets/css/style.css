@@ -96,11 +96,11 @@ a:hover, a:visited, a:link, a:active
   transition: all 0.1s linear;
 }
 
-.nav-item a {
+/* .nav-item a {
   display: block;
   text-align: center;
   padding: 1.6rem;
-}
+} */
 
 .nav-item:hover {
   transition: color 0.1s linear;
