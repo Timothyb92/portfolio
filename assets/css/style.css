@@ -47,10 +47,30 @@ a:hover, a:visited, a:link, a:active
 
 .navbar {
   background-color: rgba(0, 0, 0, 0.30);
+  height: 10rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.80);
+  transition: background-color 0.1s linear;
+}
+
+.sticky img {
+  height: 8rem;
+  transition: height 0.1s linear;
+}
+
+.sticky li {
+  font-size: 1.6rem;
+  transition: font-size 0.1s linear;
 }
 
 .logo-white, .logo-black {
-  height: 10rem;
+  height: 9rem;
   /* float: left; */
   padding: 1.6rem;
 }
