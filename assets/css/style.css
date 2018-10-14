@@ -48,6 +48,7 @@ a:hover, a:visited, a:link, a:active
 .navbar {
   background-color: rgba(0, 0, 0, 0.30);
   height: 10rem;
+  transition: all 0.1s linear;
 }
 
 .sticky {
@@ -59,7 +60,7 @@ a:hover, a:visited, a:link, a:active
   transition: background-color 0.1s linear;
 }
 
-.sticky img {
+.sticky .logo-white {
   height: 8rem;
   transition: height 0.1s linear;
 }
@@ -69,10 +70,15 @@ a:hover, a:visited, a:link, a:active
   transition: font-size 0.1s linear;
 }
 
+.stick .menu {
+  height: 5rem;
+  transition: height 0.1s linear;
+}
+
 .logo-white, .logo-black {
   height: 9rem;
-  /* float: left; */
   padding: 1.6rem;
+  transition: all 0.1s linear;
 }
 
 .logo-black {
@@ -81,13 +87,13 @@ a:hover, a:visited, a:link, a:active
 
 .nav-list {
   list-style: none;
-  /* display: block; */
 }
 
 
 .nav-item {
   color: #fff;
   font-size: 2rem;
+  transition: all 0.1s linear;
 }
 
 .nav-item a {
@@ -159,7 +165,8 @@ a:hover, a:visited, a:link, a:active
 
 .about-paragraph {
   font-size: 1.8rem;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
+  padding: 2rem 3.6rem 0 3.6rem;
 }
 
 .projects {
