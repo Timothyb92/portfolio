@@ -13,4 +13,7 @@ window.onload = () =>  {
       navbar.classList.remove('sticky');
     }
   }
+
+  document.querySelector('.nav-link')
+
 }

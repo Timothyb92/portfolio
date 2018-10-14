@@ -6,6 +6,10 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Timothy Bedsole</title>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="./assets/images/blackVer.png" type="image/x-icon">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -16,20 +20,20 @@
 </head>
 <body>
   <div class="container-fluid">
-    <header class="header">
+    <header class="header" id="header">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#header">
               <img src="./assets/images/whiteVer.png" alt="White logo" class="logo-white">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="sr-only">Toggle navigation</span>
               <img src="./assets/images/menu.png" alt="menu" class="menu">
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse smooth-scroll" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item ml-5 mr-5">
                   <a class="nav-link" href="#">Portfolio</a>
@@ -62,7 +66,7 @@
       </div>
     </header>
     <div class="row">
-      <section class="about-section">
+      <section class="about-section" id="about">
         <h2 class="about-header text-center">
           <span class="bottom-border-span">About Me</span>
         </h2>
