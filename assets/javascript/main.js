@@ -1,19 +1,27 @@
-window.onload = () =>  {
-  window.onscroll = () => stickyNav();
-  
-  const header = document.querySelector('.header');
-  const navbar = document.querySelector('.navbar');
-  
-  const sticky = header.offsetTop;
+$(function() {
+
+  var header = $('header');
+  var navbar = $('.navbar');
+  var sticky = header.scrollTop();
   
   function stickyNav() {
     if (window.pageYOffset > sticky) {
-      navbar.classList.add('sticky');
+      navbar.addClass('sticky');
     } else {
-      navbar.classList.remove('sticky');
+      navbar.removeClass('sticky');
     }
-  }
+  };
+  
+  $(window).scroll(function() {
+    stickyNav();
+  });
 
-  document.querySelector('.nav-link')
+  $('.nav-link').click(function(e) {
+    var dest = $(this).attr('dest');
 
-}
+    $('html, body').animate({
+      scrollTop: $('.' + dest).offset().top-100
+    }, 800);
+  });
+  
+})
