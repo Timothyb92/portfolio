@@ -6,7 +6,6 @@ $(function() {
   
   function stickyNav() {
     if (window.pageYOffset > sticky) {
-      console.log('If condition good')
       navbar.addClass('sticky');
     } else {
       navbar.removeClass('sticky');
@@ -19,7 +18,10 @@ $(function() {
 
   $('.nav-link').click(function(e) {
     var dest = $(this).attr('dest');
-    console.log(dest)
+
+    $('html, body').animate({
+      scrollTop: $('.' + dest).offset().top-100
+    }, 800);
   });
   
 })
