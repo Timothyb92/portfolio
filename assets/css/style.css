@@ -156,12 +156,13 @@ a:hover, a:visited, a:link, a:active
 
 .headshot {
   border-radius: 100%;
+  box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
 }
 
 .about-paragraph {
   font-size: 1.8rem;
-  /* padding-top: 1rem; */
   padding: 2rem 3.6rem 0 3.6rem;
+  line-height: 1.7;
 }
 
 .projects {
@@ -180,6 +181,7 @@ a:hover, a:visited, a:link, a:active
 .projects-paragraph {
   font-size: 1.8rem;
   margin-bottom: 2em;
+  padding: 2rem 3.6rem 0 3.6rem;
 }
 
 .projects-list {
@@ -200,6 +202,7 @@ a:hover, a:visited, a:link, a:active
 
 .contact-text-box {
   margin-bottom: 6rem;
+  padding: 2rem 3.6rem 0 3.6rem;
 }
 
 .contact-paragraph {
