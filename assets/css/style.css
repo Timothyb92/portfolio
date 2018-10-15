@@ -181,6 +181,10 @@ a:hover, a:visited, a:link, a:active
   margin-bottom: 3.5rem;
 }
 
+.project-title {
+  font-size: 2.75rem;
+}
+
 .projects-paragraph {
   font-size: 2.1rem;
   margin-bottom: 2em;
@@ -189,6 +193,16 @@ a:hover, a:visited, a:link, a:active
 
 .projects-list {
   margin-bottom: 1rem;
+}
+
+.project-description {
+  font-size: 1.6rem;
+}
+
+.project-button {
+  background-color: #7aa329;
+  font-size: 2rem;
+  margin: 1.5rem 0;
 }
 
 .contact-me {
