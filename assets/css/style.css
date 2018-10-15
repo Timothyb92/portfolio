@@ -202,7 +202,7 @@ a:hover, a:visited, a:link, a:active
 .project-button {
   background-color: #7aa329;
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin: 1.5rem 0;
 }
 
 .contact-me {
