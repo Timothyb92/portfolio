@@ -66,24 +66,24 @@ a:active {
 
 .sticky .logo-white {
   height: 8rem;
-  transition: height 0.1s linear;
+  transition: height 0.2s linear;
 }
 
 .sticky li {
   font-size: 1.6rem;
-  transition: font-size 0.1s linear;
+  transition: font-size 0.2s linear;
 }
 
 .stick .menu {
   height: 5rem;
-  transition: height 0.1s linear;
+  transition: height 0.2s linear;
 }
 
 .logo-white,
 .logo-black {
   height: 9rem;
   padding: 1.6rem;
-  transition: all 0.1s linear;
+  transition: all 0.2s linear;
 }
 
 .logo-black {
@@ -97,7 +97,7 @@ a:active {
 .nav-item {
   color: #fff;
   font-size: 2rem;
-  transition: all 0.1s linear;
+  transition: all 0.2s linear;
 }
 
 .nav-item:hover {
