@@ -159,9 +159,7 @@ a:active {
 }
 
 .headshot {
-  border-radius: 100%;
-  height: 400px;
-  width: 500px;
+  border-radius: 5%;
 }
 
 .about-paragraph {
