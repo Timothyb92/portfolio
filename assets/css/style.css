@@ -160,6 +160,7 @@ a:active {
 
 .headshot {
   border-radius: 5%;
+  width: 500px;
 }
 
 .about-paragraph {
